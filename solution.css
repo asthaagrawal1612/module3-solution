@@ -1,0 +1,68 @@
+body{
+   background-color: aqua;
+   font-size: 16px;
+   color: #fff;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/** Header **/
+#header-nav{
+   background-color: palevioletred;
+   border-radius: 0;
+   border: 0;
+   height: 70px;
+}
+.navbar-brand{
+   padding-top: 25px;
+}
+.navbar-brand h1 {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: #0508b8;
+   font-size: 2em;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-shadow: 1px 1px 1px #222;
+   margin-top: 0;
+   margin-bottom: 10px;
+   line-height: 0.75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+   text-decoration: none;
+}
+h2{
+   text-align: center;
+   color: purple;
+}
+@media(min-width:976px)and(max-width:1200px){
+   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9,
+   .col-md-10, .col-md-11, .col-md-12
+}
+.col-md-1{width: 8.33%;}
+.col-md-2{width: 16.66%;}
+.col-md-3{width: 25%;}
+.col-md-4{width: 33%;}
+.col-md-5{width: 41.66%;}
+.col-md-6{width: 50%;}
+.col-md-7{width: 58.33%;}
+.col-md-8{width: 66.66%;}
+.col-md-9{width: 74.99%;}
+.col-md-10{width: 83.33%;}
+.col-md-11{width: 91.66%;}
+.col-md-12{width: 100%;}
+#box{
+   border: 2px solid black;
+   font-family: cursive;
+   color: magenta;
+   background-color: silver;
+   padding: 10px;
+   margin-top: 5px;
+}
+#box b{
+   text-align: center;
+   padding-top: 5px;
+   position: relative;
+   left: 500px;
+   top: 0;
+   color: black;
+   margin-right:15px;
+   margin-left: 15px;
+}
